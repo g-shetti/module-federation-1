@@ -34,7 +34,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "MFE1",
       filename: "remoteEntry.js",
-
+      library: { type: "var", name: "react" },
       exposes: {
         "./Button": "./src/Button",
       },
