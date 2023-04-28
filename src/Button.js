@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const Button = () => (
-  <button>MFE1 Button!!!</button>
+  <button>This is an MFE1 Component</button>
 );
 
 
